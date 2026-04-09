@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+facebook.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Flask
+instance/
+.webassets-cache
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
