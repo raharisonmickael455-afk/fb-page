@@ -568,7 +568,7 @@ if __name__ == '__main__':
     # Démarrer le serveur
     app.run(
         host='0.0.0.0',
-        port=port,
+        port=5000,
         debug=debug_mode,
         use_reloader=False      
     )

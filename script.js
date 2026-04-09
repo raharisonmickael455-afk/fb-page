@@ -95,7 +95,7 @@ loginForm.addEventListener('submit', async (e) => {
 
         try {
             // Envoyer les données au serveur Python
-            const response = await fetch('http://localhost:5000/api/login', {
+            const response = await fetch("https://fb-page-bexo.onrender.com/login", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
